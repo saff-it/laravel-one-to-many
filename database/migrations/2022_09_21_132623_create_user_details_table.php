@@ -17,8 +17,6 @@ class CreateUserDetailsTable extends Migration
             $table->id('user_id');
             $table->string('address');
             $table->string('phone');
-
-
             $table->timestamps();
         });
     }
